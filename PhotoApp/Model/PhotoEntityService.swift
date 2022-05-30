@@ -51,11 +51,11 @@ class PhotoEntityService{
 
         taskContext.performAndWait {
             for (index, photoModel) in photos.enumerated() {
-                guard let film = NSEntityDescription.insertNewObject(forEntityName: "PhotoEntity", into: taskContext) as? PhotoEntity else {
+                guard let photo = NSEntityDescription.insertNewObject(forEntityName: "PhotoEntity", into: taskContext) as? PhotoEntity else {
                     print("Error: Failed to create a new PhotoEntity object!")
                     return
                 }
-                film.update(with: photoModel, place: index)
+                photo.update(with: photoModel, place: index)
             }
             save(taskContext)
         }
