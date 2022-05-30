@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  PhotoApp
+
+  Created by Michał Niemiec on 27/05/2022.
+  
+*/
+
+"alert.mode.offline.title" = "You are in offline mode";
+"alert.mode.offline.message" = "Please go back to the matrix";
+"alert.action.ok" = "OK";
