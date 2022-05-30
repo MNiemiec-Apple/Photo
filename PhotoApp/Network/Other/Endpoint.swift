@@ -21,7 +21,7 @@ extension Endpoint {
               let plist = NSDictionary(contentsOfFile: filePath),
               let value = plist.object(forKey: "BASE_URL") as? String else
         {
-            fatalError("Couldn't find file 'TMDB-Info.plist'.")
+            fatalError("Couldn't find file 'API-Info.plist'.")
         }
         return value
     }

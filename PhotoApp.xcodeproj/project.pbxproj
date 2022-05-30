@@ -158,7 +158,6 @@
 				143C49542833B2A400C585AF /* Services */,
 				143C49512833B18500C585AF /* Endpoints */,
 				143C49502833B16300C585AF /* Other */,
-				14658792283F764100220917 /* ImageService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -182,7 +181,6 @@
 				143C494A2833AF4700C585AF /* HTTPMethod.swift */,
 				143C494C2833AF7D00C585AF /* HTTPClient.swift */,
 				143C494E2833AFA600C585AF /* HTTPError.swift */,
-				1465879E2840C72200220917 /* Localizer.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -198,6 +196,7 @@
 		143C49542833B2A400C585AF /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				14658792283F764100220917 /* ImageService.swift */,
 				143C49552833B2B600C585AF /* NetworkService.swift */,
 				146587A22844BA8300220917 /* MockNetworkService.swift */,
 				146587A42844BC4600220917 /* NetworkMonitor.swift */,
@@ -208,20 +207,12 @@
 		143C49582833B3AB00C585AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				143C495F2834E3C400C585AF /* Utils */,
 				143C49132833AA7E00C585AF /* ContentView.swift */,
 				143C495B2834D4EF00C585AF /* ItemView.swift */,
 				143C495D2834E01200C585AF /* DetailsView.swift */,
 				14658794283F85D300220917 /* ImageWithProgress.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		143C495F2834E3C400C585AF /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		14658796283FA01000220917 /* PhotoEntity */ = {
@@ -236,6 +227,7 @@
 		146587A82844C96200220917 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				1465879E2840C72200220917 /* Localizer.swift */,
 				14658790283E5E7800220917 /* LocalFileManager.swift */,
 				146587A02844B8C000220917 /* NetworkFactory.swift */,
 				1465879D2840C6D800220917 /* Localizable.strings */,
